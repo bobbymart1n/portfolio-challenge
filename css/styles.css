@@ -4,6 +4,9 @@ body {
     background-color: #2a363b;
     color: white;
 }
+nav {
+    display: none;
+}
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
 }
@@ -131,6 +134,7 @@ hr {
 }
 .about-section .panel {
     background: #99b898;
+    min-height: 250px;
 }
 .about-section .panel-heading {
     background: #677b66;
@@ -143,8 +147,11 @@ hr {
     opacity: .5;
     padding: 0;
 }
+.about-section:first-child {
+    text-align: center;
+}
 .about-section .panel:last-child {
-    float:right
+    float: right;
 }
 
 /* Footer Section
@@ -155,7 +162,17 @@ hr {
     align-items: center;
     justify-content: center;
 }
-
 .footer p {
     opacity: .4;
+}
+
+/* Media Queries
+======================================*/
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+    }
+    .about-section:first-child {
+        text-align: left;
+    }
 }
