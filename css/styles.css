@@ -1,5 +1,9 @@
 /* General Styles
 ======================================*/
+body {
+    background-color: #2a363b;
+    color: white;
+}
 h1 {
     font-size: 60px;
 }
@@ -16,6 +20,10 @@ h1 {
 
 /* Jumbotron Section
 ======================================*/
+.jumbotron {
+    border-radius: 0 !important;
+    background: transparent;
+}
 .img-wrapper {
     height: 300px;
     overflow: hidden;
@@ -28,7 +36,16 @@ h1 {
 
 /* Portfolio Section
 ======================================*/
+.portfolio-section .panel {
+    background: #ff847c;
+}
 
 
 /* About Section
 ======================================*/
+.about-section .panel {
+    background: #fecea8;
+}
+.about-section .panel:last-child {
+    float:right
+}
