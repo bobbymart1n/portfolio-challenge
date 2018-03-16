@@ -47,7 +47,7 @@ hr {
 .jumbotron a, .portfolio-section a {
     color: white;
 }
-.jumbotron a:hover, .jumbotron a:hover, .portfolio-section a:hover, .nav>li>a:hover {
+a:hover {
     color: #fecea8;
 }
 
