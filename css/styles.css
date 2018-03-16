@@ -39,6 +39,12 @@ hr {
     font-size: 24px;
     opacity: .7;
 }
+.jumbotron a, .portfolio-section a {
+    color: white;
+}
+.jumbotron a:hover, .jumbotron a:hover, .portfolio-section a:hover, .nav>li>a:hover {
+    color: #fecea8;
+}
 
 /* Nav Styles
 ======================================*/
@@ -71,6 +77,9 @@ hr {
     background: url('../imgs/bg.jpg');
     background-size: cover;
 }
+.jumbotron h1, .jumbotron h2, .jumbotron .glyphicon {
+    text-shadow: 0 2px 10px #222;
+}
 .jumbotron h1 {
     font-size: 80px;
 }
@@ -79,15 +88,9 @@ hr {
     font-size: 40px;
     font-weight: bold;
 }
-.jumbotron a {
-    color: white;
-}
 .jumbotron .glyphicon {
     font-size: 40px;
     margin: 0 30px;
-}
-.jumbotron a:hover {
-    color: #fecea8;
 }
 
 /* Portfolio Section
@@ -105,6 +108,9 @@ hr {
     list-style: none;
     padding: 0;
     color: #222;
+}
+.portfolio-section .glyphicon {
+    font-size: 30px;
 }
 
 
@@ -136,4 +142,17 @@ hr {
 }
 .about-section .panel:last-child {
     float:right
+}
+
+/* Footer Section
+======================================*/
+.footer {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p {
+    opacity: .4;
 }
