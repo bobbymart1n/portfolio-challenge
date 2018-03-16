@@ -1,7 +1,7 @@
 # Portfolio Challenge Project
 **An HTML/CSS and Bootstrap project for Epicodus 03.15.2018**
 
-**View this repo on GitHub Pages!** [Here]("http://bobbymart1n.github.io/portfolio-challenge")
+**View this repo on GitHub Pages!** [Here](http://bobbymart1n.github.io/portfolio-challenge)
 
 ## By Bobby Martin
 
