@@ -25,6 +25,12 @@ p {
 .section {
     padding: 20px;
 }
+.section h1 {
+    margin-bottom: 40px;
+}
+.panel {
+    padding: 0;
+}
 
 /* Nav Styles
 ======================================*/
@@ -63,10 +69,19 @@ p {
 /* About Section
 ======================================*/
 .about-section .panel {
-    background: #fecea8;
+    background: #99b898;
+    border: 0;
 }
-.about-section .panel-body ul {
+.about-section .panel-heading {
+    background: #677b66;
+}
+.about-section .panel-title {
+    font-size: 24px;
+    opacity: .7;
+}
+.about-section .panel-body ul, .about-section .panel-body ol {
     list-style: none;
+    opacity: .5;
     padding: 0;
 }
 .about-section .panel:last-child {
