@@ -59,14 +59,28 @@ p {
     border-radius: 0 !important;
     background: transparent;
 }
+.jumbotron h1 {
+    margin-bottom: 40px;
+}
 .img-wrapper {
     height: 300px;
+    margin-bottom: 40px;
     overflow: hidden;
 }
 .img-wrapper img {
     max-width: 300px;
     position: relative;
     bottom: 50px;
+}
+.jumbotron a {
+    color: white;
+}
+.jumbotron .glyphicon {
+    font-size: 40px;
+    margin: 0 30px;
+}
+.jumbotron a:hover {
+    color: #fecea8;
 }
 
 /* Portfolio Section
