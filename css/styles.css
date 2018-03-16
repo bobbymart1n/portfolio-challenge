@@ -141,6 +141,7 @@ a:hover {
 }
 .about-section .panel-body h3 {
     margin-top: 10px;
+    font-size: 20px;
 }
 .about-section .panel-body ul, .about-section .panel-body ol {
     list-style: none;
@@ -150,8 +151,20 @@ a:hover {
 .about-section:first-child {
     text-align: center;
 }
-.about-section .panel:last-child {
+.about-section .panel:nth-child(3) {
     float: right;
+}
+.about-section .panel:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: 2px solid #fecea8;
+}
+.about-section .panel:last-child p {
+    opacity: .7;
+    font-size: 18px;
 }
 
 /* Footer Section
