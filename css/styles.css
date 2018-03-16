@@ -30,6 +30,11 @@ p {
 }
 .panel {
     padding: 0;
+    border: 0;
+}
+.panel-title {
+    font-size: 24px;
+    opacity: .7;
 }
 
 /* Nav Styles
@@ -37,6 +42,11 @@ p {
 .navbar {
     margin-bottom: 0;
     padding: 0 30px;
+    min-height: 80px;
+}
+.navbar-nav>li>a, .navbar-brand {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .navbar a {
     color: white;
@@ -64,20 +74,18 @@ p {
 .portfolio-section .panel {
     background: #ff847c;
 }
+.portfolio-section .panel-heading {
+    background-color: #bb625c;
+}
 
 
 /* About Section
 ======================================*/
 .about-section .panel {
     background: #99b898;
-    border: 0;
 }
 .about-section .panel-heading {
     background: #677b66;
-}
-.about-section .panel-title {
-    font-size: 24px;
-    opacity: .7;
 }
 .about-section .panel-body ul, .about-section .panel-body ol {
     list-style: none;
