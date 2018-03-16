@@ -3,7 +3,7 @@
 
 **View this repo on GitHub Pages!** [Here]("http://bobbymart1n.github.io/portfolio-challenge")
 
-### By Bobby Martin
+## By Bobby Martin
 
 # Description
 This challenge project is to represent our gained knowledge from the first week at Epicodus. Its a basic single page portfolio that shows my current work, and a little bit about me.
