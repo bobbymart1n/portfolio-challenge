@@ -32,7 +32,7 @@ p {
     padding: 0;
     border: 0;
 }
-.panel-title {
+.panel-title, .panel-footer {
     font-size: 24px;
     opacity: .7;
 }
@@ -60,17 +60,12 @@ p {
     background: transparent;
 }
 .jumbotron h1 {
-    margin-bottom: 40px;
+    font-size: 80px;
 }
-.img-wrapper {
-    height: 300px;
+.jumbotron h2 {
     margin-bottom: 40px;
-    overflow: hidden;
-}
-.img-wrapper img {
-    max-width: 300px;
-    position: relative;
-    bottom: 50px;
+    font-size: 40px;
+    font-weight: bold;
 }
 .jumbotron a {
     color: white;
@@ -88,26 +83,39 @@ p {
 .portfolio-section .panel {
     background: #ff847c;
 }
-.portfolio-section .panel-heading {
+.portfolio-section .panel-heading, .portfolio-section .panel-footer  {
     background-color: #bb625c;
 }
 .portfolio-section .panel-footer {
-    background: transparent;
     border: 0;
 }
 .portfolio-section .panel-footer ul {
     list-style: none;
     padding: 0;
+    color: #222;
 }
 
 
 /* About Section
 ======================================*/
+.img-wrapper {
+    height: 300px;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+.img-wrapper img {
+    max-width: 300px;
+    position: relative;
+    bottom: 50px;
+}
 .about-section .panel {
     background: #99b898;
 }
 .about-section .panel-heading {
     background: #677b66;
+}
+.about-section .panel-body h3 {
+    margin-top: 10px;
 }
 .about-section .panel-body ul, .about-section .panel-body ol {
     list-style: none;
