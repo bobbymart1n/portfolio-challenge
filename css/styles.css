@@ -21,6 +21,8 @@ p {
 }
 hr {
     border-color: #fecea8;
+    margin-top: 80px;
+    margin-bottom: 40px;
 }
 .text-dark {
     color: #222;
@@ -117,7 +119,7 @@ hr {
 /* About Section
 ======================================*/
 .img-wrapper {
-    height: 250px;
+    max-height: 250px;
     margin-bottom: 40px;
     overflow: hidden;
 }
@@ -125,6 +127,7 @@ hr {
     max-width: 250px;
     position: relative;
     bottom: 50px;
+    border: 5px solid #fecea8;
 }
 .about-section .panel {
     background: #99b898;
