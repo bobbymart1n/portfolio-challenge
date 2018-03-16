@@ -6,7 +6,7 @@
 ### By Bobby Martin
 
 # Description
-This challenge project is to represent our gained knowledge from the first week at Epicodus. Its a basic single page portfolio that shows my current work, and knowledge.
+This challenge project is to represent our gained knowledge from the first week at Epicodus. Its a basic single page portfolio that shows my current work, and a little bit about me.
 
 # Setup Requirements
 * Clone this repository
