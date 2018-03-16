@@ -1,3 +1,21 @@
+/* General Styles
+======================================*/
+h1 {
+    font-size: 60px;
+}
+.section {
+    padding: 20px;
+}
+
+/* Nav Styles
+======================================*/
+.navbar {
+    margin-bottom: 0;
+    padding: 0 30px;
+}
+
+/* Jumbotron Section
+======================================*/
 .img-wrapper {
     height: 300px;
     overflow: hidden;
@@ -7,3 +25,10 @@
     position: relative;
     bottom: 50px;
 }
+
+/* Portfolio Section
+======================================*/
+
+
+/* About Section
+======================================*/
