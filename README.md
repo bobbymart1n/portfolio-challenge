@@ -10,7 +10,7 @@ This challenge project is to represent our gained knowledge from the first week 
 
 # Setup Requirements
 * Clone this repository
-* Open the index.html file in Chrome or any other web browser
+* Open the index.html file in Chrome or any other web browser or Text Editor
 * Enjoy :)
 
 # License
