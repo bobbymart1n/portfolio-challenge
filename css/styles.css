@@ -77,6 +77,14 @@ p {
 .portfolio-section .panel-heading {
     background-color: #bb625c;
 }
+.portfolio-section .panel-footer {
+    background: transparent;
+    border: 0;
+}
+.portfolio-section .panel-footer ul {
+    list-style: none;
+    padding: 0;
+}
 
 
 /* About Section
